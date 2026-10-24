@@ -1,0 +1,4 @@
+[["wait", 500], ["click", "[data-tool=offline]"], ["click", "[data-tool=decline]"], ["click", "[data-tool=big]"], ["wait", 300],
+ ["key", "Enter"], ["wait", 50], ["key", "c"], ["wait", 50], ["eval", "document.querySelector('[data-readout]').textContent + ' | term ' + [...document.querySelectorAll('[data-line]')].map(t=>t.textContent).join('/')"],
+ ["key", "c"], ["wait", 50], ["eval", "document.querySelector('[data-readout]').textContent + ' | prep ' + [...document.querySelectorAll('[data-prep]')].map(t=>t.textContent).join(',')"],
+ ["click", "[data-tool=offline]"], ["wait", 100], ["eval", "'prep ' + [...document.querySelectorAll('[data-prep]')].map(t=>t.textContent).join(',')"]]

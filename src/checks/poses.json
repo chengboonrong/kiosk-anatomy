@@ -1,0 +1,4 @@
+[["until", "document.querySelector('[data-readout]').textContent.includes('reading')", 15000],
+ ["lines", "shots/lines-card.png"],
+ ["until", "document.querySelector('[data-readout]').textContent.includes('take your receipt') || document.querySelector('[data-readout]').textContent.includes('preparing')", 15000],
+ ["wait", 600], ["lines", "shots/lines-receipt.png"]]

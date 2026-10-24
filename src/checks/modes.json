@@ -1,0 +1,4 @@
+[["wait", 600], ["key", "n"], ["key", "p"], ["wait", 400], ["lines", "shots/lines-modes.png"],
+ ["key", "b"], ["wait", 1200], ["key", "Enter"], ["wait", 1200], ["key", "c"], ["until", "document.querySelector('[data-readout]').textContent.includes('PIN ·')", 8000], ["wait", 800], ["lines", "shots/lines-pin.png"],
+ ["until", "document.querySelector('[data-readout]').textContent.includes('queued')", 15000], ["wait", 2500], ["lines", "shots/lines-queued.png"],
+ ["key", "n"], ["until", "document.querySelector('[data-readout]').textContent.includes('preparing')", 8000], ["wait", 1200], ["lines", "shots/lines-ticket.png"]]
