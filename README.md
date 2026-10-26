@@ -5,6 +5,8 @@ An interactive isometric figure of how a self-service ordering kiosk works, from
 - Light: https://chengboonrong.github.io/kiosk-anatomy/
 - Dark: https://chengboonrong.github.io/kiosk-anatomy/dark.html
 
+<img src="docs/preview.jpg" alt="The isometric ordering kiosk with its side panel off, showing the touch screen, card reader, receipt printer and pickup board" width="360">
+
 Tap the screen to order, tap the card to pay. Break it with the buttons: paper low, unplug the network, decline a card, or a big order that needs a PIN.
 
 ## Source
